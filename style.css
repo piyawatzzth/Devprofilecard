@@ -1,0 +1,85 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  background: linear-gradient(135deg, #cfefff, #e0f7ff);
+  margin: 0;
+  padding: 20px;
+  color: #003344;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffffdd;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 3px solid #66ccff;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0077aa;
+}
+
+.desc {
+  color: #555;
+  margin-top: 4px;
+}
+
+.section {
+  margin-top: 26px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #006699;
+  border-left: 4px solid #66ccff;
+  padding-left: 8px;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer img {
+  width: 64px;
+  border-radius: 50%;
+  margin-top: 12px;
+  border: 2px solid #88ddff;
+}
